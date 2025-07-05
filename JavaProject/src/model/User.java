@@ -2,7 +2,7 @@ package model;
 
 public class User {
     private static long countId = 0;
-    private long id;
+    private final long id;
     private String userName;
     private String email;
     private String password;
